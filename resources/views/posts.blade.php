@@ -11,8 +11,9 @@
             <p class="my-4 font-light">
                 {{ Str::limit($post['body'], 100) }}
             </p>
-            <a href="/posts/{{ $post['slug'] }}" class="font-medium text-blue-500 hover:underline">Read More &raquo;</a>
+            <a href="/posts/{{ $post['php'] }}" class="font-medium text-blue-500 hover:underline">Read More &raquo;</a>
         </article>
+        
     @endforeach
 
 </x-layout>
