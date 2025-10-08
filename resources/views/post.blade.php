@@ -11,4 +11,6 @@
         <a href="/posts" class="font-medium text-blue-500 hover:underline">&laquo; Back To All Post</a>
     </article>
 
+    
+
 </x-layout>
